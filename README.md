@@ -96,17 +96,6 @@ The strongest evaluation reports:
 
 Prefix caching only accelerates prefill, not decoding. Keep `--max-tokens` small when isolating the systems effect.
 
-## Research extensions
-
-The resume-quality MVP becomes a stronger research project by adding:
-
-- A prompt-DAG intermediate representation
-- Automatic common-prefix extraction across arbitrary agent graphs
-- Semantic-equivalence guards before reordering prompt sections
-- Cache-aware scheduling across multiple vLLM replicas
-- LMCache or Mooncake cross-instance KV sharing
-- Block-aligned prompt packing and cache-admission policies
-- Quality regression measurement on SWE-bench-style tasks
 
 ## Important limitation
 
