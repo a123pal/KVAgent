@@ -1,6 +1,6 @@
 # KVAgent
 
-KVAgent is a cache-aware prompt compiler and benchmark for multi-agent LLM workflows. It tests a simple systems hypothesis:
+KVAgent is a cache-aware prompt compiler and benchmark for multi-agent LLM workflows. It tests:
 
 > When several agents operate on the same large artifact, moving stable shared bytes into an identical prompt prefix lets vLLM reuse KV-cache blocks instead of prefilling the artifact once per agent.
 
