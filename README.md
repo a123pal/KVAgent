@@ -84,7 +84,7 @@ python scripts/sweep.py --artifact examples/reverse_lines.c
 
 ## Metrics to report
 
-The strongest evaluation reports:
+Wokrking on the following:
 
 1. Median and p95 TTFT
 2. Median end-to-end latency with a small fixed decode budget
@@ -93,9 +93,6 @@ The strongest evaluation reports:
 5. Results across 16 KiB, 64 KiB, and 256 KiB artifacts
 6. Results across fan-out 2, 3, and 4
 7. Output-quality comparison between prompt layouts
-
-Prefix caching only accelerates prefill, not decoding. Keep `--max-tokens` small when isolating the systems effect.
-
 
 ## Important limitation
 
